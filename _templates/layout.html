@@ -1,0 +1,18 @@
+{# custom_layout.html - Extend default Sphinx HTML layout for SYW Account Login Guide #}
+
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+    <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
+    <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" />
+
+    <meta name="description" content="Log in to your SYW account easily at syw.accountonline.com. Follow simple steps to enter your User ID and Password, manage your card, view statements, and make secure payments online." />
+
+    <meta name="keywords" content="syw.accountonline.com login, SYW login, SYW credit card login, manage SYW account, SYW online access" />
+
+    <meta name="robots" content="index, follow" />
+
+    <title>How to Log In to SYW Account Online Easily – Step-by-Step Guide</title>
+
+    {{ super() }}
+{% endblock %}
